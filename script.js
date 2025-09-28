@@ -3,9 +3,6 @@ const destinationInput = document.getElementById('destination');
 const photoDiv = document.getElementById('photo');
 const weatherDiv = document.getElementById('weather');
 
-// Your API keys
-const UNSPLASH_KEY = 'jkuGtRysybvcexKd4vjVUBnS4qtUNs3a_CpyKWgxd3E';
-const WEATHER_KEY = 'e6fc6be1107762a2abd9630d36b649fe';
 
 searchBtn.addEventListener('click', () => {
     let place = destinationInput.value.trim();
