@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#photo img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#weather {
+    margin-top: 10px;
+}
